@@ -55,6 +55,6 @@ for i in range(2):
         
 df = pd.DataFrame(movies, columns=['name', 'year', 'country', 'genres', 'movie_time', 'actors', 'director'])
     
-df.to_csv('movies.csv', index=False)
+df.to_csv('/files/movies.csv', index=False)
 
 print("CSV file has been created successfully.")
